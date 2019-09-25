@@ -40,3 +40,18 @@ extract() {
  alias ....='cd ../../../'
  alias py='python3.6'
  alias pip='pip3.6'
+
+alias home='cd ~'
+alias root='cd /'
+alias q='exit'
+alias c='clear'
+alias h='history'
+alias cs='clear;ls'
+alias p='cat'
+
+
+ alias g='git'
+ alias st='git status'
+ alias com='git commit'
+ alias clone='git clone'
+ alias sth='git stash'
