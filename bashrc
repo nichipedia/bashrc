@@ -35,12 +35,14 @@ extract() {
    fi
  }
 
- alias ..='cd ../'
- alias ...='cd ../../'
- alias ....='cd ../../../'
- alias py='python3.6'
- alias pip='pip3.6'
+# How did I live before these?????
+alias ..='cd ../'
+alias ...='cd ../../'
+alias ....='cd ../../../'
+alias py='python3.6'
+alias pip='pip3.6'
 
+# Misc alias for system stuff
 alias home='cd ~'
 alias root='cd /'
 alias q='exit'
@@ -48,10 +50,11 @@ alias c='clear'
 alias h='history'
 alias cs='clear;ls'
 alias p='cat'
+alias sys='systemctl'
 
-
- alias g='git'
- alias st='git status'
- alias com='git commit'
- alias clone='git clone'
- alias sth='git stash'
+# Git alias
+alias g='git'
+alias st='git status'
+alias com='git commit'
+alias clone='git clone'
+alias sth='git stash'
